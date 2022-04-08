@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+* {
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  background: #04080F;
+}
+
+.converter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.converterLabel {
+  text-align: center;
+  width: 100%;
+  font-size: 6rem;
+  font-weight: 600;
+  background-color: #507DBC;
+  padding: 0.3em;
+  border-bottom: 5px solid #3c649d;
+}
+
+.converterCategory {
+  width: 100%;
+  margin: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.categoryLabel {
+  font-size: 2rem;
+  padding: 0.5em;
+  background-color: #507DBC;
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-bottom: 5px solid #3c649d;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.categoryLabel:hover {
+  cursor: pointer;
+  background-color: #BBD1EA;
+}
+
+.converterContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #A1C6EA;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  width: 100%;
+}
+
+.converterContentHidden {
+  width: 100%;
+  display: none;
+  background-color: #A1C6EA;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  height: 0%;
+}
+
+.unitsType div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Label {
+  font-size: 3rem;
+  margin: 1em;
+}
+
+.Content {
+  margin: 1em;
+}
+
+.Content input {
+  border: none;
+  background-color: transparent;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  border-bottom: 2px solid #3c649d;
+}
+
+.Content input:hover {
+  border-bottom: 2px solid #7598ca;
+}
+
+.Content input:focus {
+  outline: none;
+  border-bottom: 2px solid #7598ca;
+}
+/*# sourceMappingURL=Style.module.css.map */
