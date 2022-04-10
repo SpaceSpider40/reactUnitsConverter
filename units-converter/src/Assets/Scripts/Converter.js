@@ -478,6 +478,153 @@ export default class Converter extends React.Component {
                     pt: this.pt
                 })
                 break
+            //MASS
+            case "mg":
+                this.mg = convert('mg', 'mg', event.target.value)
+                this.g = convert('mg', 'g', event.target.value)
+                this.kg = convert('mg', 'kg', event.target.value)
+                this.t = convert('mg', 't', event.target.value)
+                this.oz = convert('mg', 'oz', event.target.value)
+                this.lb = convert('mg', 'lb', event.target.value)
+                this.stone = convert('mg', 'stone', event.target.value)
+                this.hwt = convert('mg', 'hwt', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    g: this.g,
+                    kg: this.kg,
+                    t: this.t,
+                    oz: this.oz,
+                    lb: this.lb,
+                    stone: this.stone,
+                    hwt: this.hwt
+                })
+                break
+            case "g":
+                this.mg = convert('g', 'mg', event.target.value)
+                this.kg = convert('g', 'kg', event.target.value)
+                this.t = convert('g', 't', event.target.value)
+                this.oz = convert('g', 'oz', event.target.value)
+                this.lb = convert('g', 'lb', event.target.value)
+                this.stone = convert('g', 'stone', event.target.value)
+                this.hwt = convert('g', 'hwt', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    kg: this.kg,
+                    t: this.t,
+                    oz: this.oz,
+                    lb: this.lb,
+                    stone: this.stone,
+                    hwt: this.hwt
+                })
+                break
+            case "kg":
+                this.mg = convert('kg', 'mg', event.target.value)
+                this.g = convert('kg', 'g', event.target.value)
+                this.t = convert('kg', 't', event.target.value)
+                this.oz = convert('kg', 'oz', event.target.value)
+                this.lb = convert('kg', 'lb', event.target.value)
+                this.stone = convert('kg', 'stone', event.target.value)
+                this.hwt = convert('kg', 'hwt', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    g: this.g,
+                    t: this.t,
+                    oz: this.oz,
+                    lb: this.lb,
+                    stone: this.stone,
+                    hwt: this.hwt
+                })
+                break
+            case "t":
+                this.mg = convert('t', 'mg', event.target.value)
+                this.g = convert('t', 'g', event.target.value)
+                this.kg = convert('t', 'kg', event.target.value)
+                this.oz = convert('t', 'oz', event.target.value)
+                this.lb = convert('t', 'lb', event.target.value)
+                this.stone = convert('t', 'stone', event.target.value)
+                this.hwt = convert('t', 'hwt', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    g: this.g,
+                    kg: this.kg,
+                    oz: this.oz,
+                    lb: this.lb,
+                    stone: this.stone,
+                    hwt: this.hwt
+                })
+                break
+            case "oz":
+                this.mg = convert('oz', 'mg', event.target.value)
+                this.g = convert('oz', 'g', event.target.value)
+                this.kg = convert('oz', 'kg', event.target.value)
+                this.t = convert('oz', 't', event.target.value)
+                this.lb = convert('oz', 'lb', event.target.value)
+                this.stone = convert('oz', 'stone', event.target.value)
+                this.hwt = convert('oz', 'hwt', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    g: this.g,
+                    kg: this.kg,
+                    t: this.t,
+                    lb: this.lb,
+                    stone: this.stone,
+                    hwt: this.hwt
+                })
+                break
+            case "lb":
+                this.mg = convert('lb', 'mg', event.target.value)
+                this.g = convert('lb', 'g', event.target.value)
+                this.kg = convert('lb', 'kg', event.target.value)
+                this.t = convert('lb', 't', event.target.value)
+                this.oz = convert('lb', 'oz', event.target.value)
+                this.stone = convert('lb', 'stone', event.target.value)
+                this.hwt = convert('bl', 'hwt', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    g: this.g,
+                    kg: this.kg,
+                    t: this.t,
+                    oz: this.oz,
+                    stone: this.stone,
+                    hwt: this.hwt
+                })
+                break
+            case "stone":
+                this.mg = convert('stone', 'mg', event.target.value)
+                this.g = convert('stone', 'g', event.target.value)
+                this.kg = convert('stone', 'kg', event.target.value)
+                this.t = convert('stone', 't', event.target.value)
+                this.oz = convert('stone', 'oz', event.target.value)
+                this.lb = convert('stone', 'lb', event.target.value)
+                this.hwt = convert('stone', 'hwt', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    g: this.g,
+                    kg: this.kg,
+                    t: this.t,
+                    oz: this.oz,
+                    lb: this.lb,
+                    hwt: this.hwt
+                })
+                break
+            case "hwt":
+                this.mg = convert('hwt', 'mg', event.target.value)
+                this.g = convert('hwt', 'g', event.target.value)
+                this.kg = convert('hwt', 'kg', event.target.value)
+                this.t = convert('hwt', 't', event.target.value)
+                this.oz = convert('hwt', 'oz', event.target.value)
+                this.lb = convert('hwt', 'lb', event.target.value)
+                this.stone = convert('hwt', 'stone', event.target.value)
+                this.setState({
+                    mg: this.mg,
+                    g: this.g,
+                    kg: this.kg,
+                    t: this.t,
+                    oz: this.oz,
+                    lb: this.lb,
+                    stone: this.stone
+                })
+                break
         }
     }
 
@@ -572,7 +719,7 @@ export default class Converter extends React.Component {
                                 <span>Ounce:</span><input onChange={this.handleChange} value={this.state.oz} name="oz" type="number" />
                                 <span>Pound:</span><input onChange={this.handleChange} value={this.state.lb} name="lb" type="number" />
                                 <span>Stone:</span><input onChange={this.handleChange} value={this.state.stone} name="stone" type="number" />
-                                <span>Hundredweight:</span><input onChange={this.handleChange} value={this.state.cwt} name="cwt" type="number" />
+                                <span>Hundredweight:</span><input onChange={this.handleChange} value={this.state.hwt} name="hwt" type="number" />
                             </div>
                         </div>
                     </div>
