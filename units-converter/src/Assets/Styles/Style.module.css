@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #04080F;
+  background: #BBD1EA;
 }
 
 .converter {
@@ -27,7 +27,8 @@ body {
   font-size: 6rem;
   font-weight: 600;
   background-color: #507DBC;
-  padding: 0.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
   border-bottom: 5px solid #3c649d;
 }
 
@@ -107,6 +108,7 @@ body {
 }
 
 .Content input {
+  margin-bottom: 5px;
   border: none;
   background-color: transparent;
   -webkit-transition-duration: 0.1s;
